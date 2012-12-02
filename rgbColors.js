@@ -43,7 +43,12 @@ var Colors = {
 		red: 255,
 		green: 0,
 		blue: 255
-	}
+	},
+	pink: {
+		red: 255,
+		green: 40,
+		blue: 65
+	},
 };
 
 module.exports = exports = Colors;
