@@ -4,9 +4,9 @@ var fs = require('fs');
 
 var board = new arduino.Board();
 
-var RED = 2;
-var GREEN = 3;
-var BLUE = 4;
+var RED = 3;
+var GREEN = 5;
+var BLUE = 6;
 
 http.createServer(function(req, res) {
 
@@ -30,7 +30,7 @@ http.createServer(function(req, res) {
 		});
 
 	} else {
-		var read = fs.createReadStream("./colorSliders.html");
+		var read = fs.createReadStream(__dirname+"/colorSliders.html");
 		read.pipe(res);
 	}
 
