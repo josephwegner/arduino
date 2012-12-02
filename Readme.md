@@ -66,3 +66,22 @@ Gives you three sliders so you can play with all the colors available in the RGB
 1. Run `node colorSliders.js`
 2. Open your browser to [http://localhost:8080](http://localhost:8080)
 3. Move the color sliders in whatever direction you would like
+
+flex.js
+-------
+Change the color of an RGB LED based on how much flex is on a flex sensor.
+
+**Component:**  
+- RGB LED
+  - Connect RGB pins to arduino PWM ports, with a 330 ohm resistor in between each LED.
+    - Red Default: PWM 3
+    - Green Default: PWM 5
+    - Blue Default: PWM 6
+  - Connect ground pin to any ground.  *Do not put a resistor on ground.*
+- Flex Sensor
+  - Connect the output to Vin with a 10K Ohm resistor in the middle
+  - In parallel of the ouput from above, connect directly to A0
+  - Connect ground to ground
+
+
+
