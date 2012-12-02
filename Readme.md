@@ -69,7 +69,7 @@ Gives you three sliders so you can play with all the colors available in the RGB
 
 flex.js
 -------
-Change the color of an RGB LED based on how much flex is on a flex sensor.
+Change the color of an RGB LED based on how much flex is on a flex sensor.  Check out [the video](http://www.youtube.com/watch?v=DoWiGai84ps&feature=youtu.be).
 
 **Component:**  
 - RGB LED
