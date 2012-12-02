@@ -7,5 +7,3 @@ var led = new arduino.Led({
 });
 
 var blink = led.blink();
-
-setTimeout(function() { led.off(); }, 5000);
