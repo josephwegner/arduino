@@ -4,9 +4,9 @@ var colors = require('./rgbColors.js');
 var board = new arduino.Board();
 
 var LEDS = {
-	red: 2,
-	green: 3,
-	blue: 4
+	red: 3,
+	green: 5,
+	blue: 6
 };
 
 var allColors = Object.keys(colors);
